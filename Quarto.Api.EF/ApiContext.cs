@@ -16,4 +16,5 @@ namespace Quarto.Api.EF
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
         }
+    }
 }
