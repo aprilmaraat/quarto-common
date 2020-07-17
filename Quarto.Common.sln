@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quarto.Common", "Quarto.Common\Quarto.Common.csproj", "{5951AC29-6EE1-4058-BAFC-B38572DE367C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quarto.Auth.EF", "Quarto.Auth.EF\Quarto.Auth.EF.csproj", "{67E796CE-77DC-4F38-AE5B-9E35A3CFFB02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quarto.Auth.EF.StartupEmulator", "Quarto.Auth.EF.StartupEmulator\Quarto.Auth.EF.StartupEmulator.csproj", "{280A465A-ACC0-4BB8-A89B-285BBD6B174C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quarto.Auth.Models", "Quarto.Auth.Models\Quarto.Auth.Models.csproj", "{D369401E-A756-4E89-8CA5-C119B6DDB96B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5951AC29-6EE1-4058-BAFC-B38572DE367C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5951AC29-6EE1-4058-BAFC-B38572DE367C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5951AC29-6EE1-4058-BAFC-B38572DE367C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5951AC29-6EE1-4058-BAFC-B38572DE367C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67E796CE-77DC-4F38-AE5B-9E35A3CFFB02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E796CE-77DC-4F38-AE5B-9E35A3CFFB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E796CE-77DC-4F38-AE5B-9E35A3CFFB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E796CE-77DC-4F38-AE5B-9E35A3CFFB02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280A465A-ACC0-4BB8-A89B-285BBD6B174C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280A465A-ACC0-4BB8-A89B-285BBD6B174C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280A465A-ACC0-4BB8-A89B-285BBD6B174C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280A465A-ACC0-4BB8-A89B-285BBD6B174C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D369401E-A756-4E89-8CA5-C119B6DDB96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D369401E-A756-4E89-8CA5-C119B6DDB96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D369401E-A756-4E89-8CA5-C119B6DDB96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D369401E-A756-4E89-8CA5-C119B6DDB96B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
