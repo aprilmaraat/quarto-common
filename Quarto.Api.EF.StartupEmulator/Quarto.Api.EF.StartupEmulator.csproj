@@ -4,8 +4,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Quarto.Api.Models" Version="1.0.3" />
-  </ItemGroup>
-
 </Project>
