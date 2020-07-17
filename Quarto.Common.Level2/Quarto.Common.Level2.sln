@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quarto.Auth.EF", "..\Quarto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quarto.Auth.EF.StartupEmulator", "..\Quarto.Auth.EF.StartupEmulator\Quarto.Auth.EF.StartupEmulator.csproj", "{60D16ACA-2C11-4238-9C29-EF80CCE258BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quarto.Api.EF", "Quarto.Api.EF\Quarto.Api.EF.csproj", "{96EFFB8A-E765-433E-BA06-30E0E58ABC82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{60D16ACA-2C11-4238-9C29-EF80CCE258BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60D16ACA-2C11-4238-9C29-EF80CCE258BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60D16ACA-2C11-4238-9C29-EF80CCE258BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96EFFB8A-E765-433E-BA06-30E0E58ABC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EFFB8A-E765-433E-BA06-30E0E58ABC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EFFB8A-E765-433E-BA06-30E0E58ABC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EFFB8A-E765-433E-BA06-30E0E58ABC82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
