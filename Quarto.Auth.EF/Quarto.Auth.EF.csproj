@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Quarto.Auth.Models\Quarto.Auth.Models.csproj" />
+    <PackageReference Include="Quarto.Auth.Models" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
