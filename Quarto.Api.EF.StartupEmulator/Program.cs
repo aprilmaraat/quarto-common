@@ -33,7 +33,7 @@ namespace Quarto.Api.EF.StartupEmulator
                     File.WriteAllText(migrationOptionsFileName,
                         $@"{{
   ""ConnectionStrings"": {{
-    ""Master"": ""{inputString.Replace("\\", "\\\\").Replace("\"", "\\\"")}""
+    ""Business"": ""{inputString.Replace("\\", "\\\\").Replace("\"", "\\\"")}""
   }}
 }}");
                 }
@@ -44,7 +44,7 @@ namespace Quarto.Api.EF.StartupEmulator
 
                 IConfigurationRoot configRoot = configurationBuilder.Build();
 
-                args = new string[] { configRoot.GetConnectionString("Master") };
+                args = new string[] { configRoot.GetConnectionString("Business") };
 
                 if (args == null || args.Length < 1)
                     throw new ArgumentNullException(nameof(args)
