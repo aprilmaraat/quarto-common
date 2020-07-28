@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-//using Quarto.Api.Models;
+using Quarto.Api.Models;
 
 namespace Quarto.Api.EF
 {
@@ -8,6 +8,7 @@ namespace Quarto.Api.EF
         public ApiContext(DbContextOptions<ApiContext> options) : base(options)
         {
         }
+        public virtual DbSet<EnumListingAccommodationType> EnumListingAccommodationType { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
@@ -15,6 +16,17 @@ namespace Quarto.Api.EF
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<EnumListingAccommodationType>(entity =>
+            {
+                entity.ToTable("enum.Listing.AccommodationType");
+
+                entity.Property(e => e.ID)
+                    .HasColumnType("tinyint")
+                    .ValueGeneratedNever();
+
+                entity.Property(e => e.Name)
+                    .HasColumnType("varchar(255)");
+            });
         }
     }
 }
