@@ -12,8 +12,7 @@ VALUES
 (2, 'House'),
 (3, 'Venue'),
 (4, 'Resort'),
-(5, 'Office Space')
-");
+(5, 'Office Space')");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
