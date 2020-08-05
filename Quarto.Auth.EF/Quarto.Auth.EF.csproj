@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Quarto.Auth.Models" Version="1.0.4" />
+    <PackageReference Include="Quarto.Auth.Models" Version="1.0.5" />
   </ItemGroup>
 
 </Project>
