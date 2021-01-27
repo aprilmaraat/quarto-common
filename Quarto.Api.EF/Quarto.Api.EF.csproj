@@ -1,13 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Quarto.Api.Models" Version="1.0.8" />
-    <PackageReference Include="Quarto.Common.Package" Version="1.0.4" />
+    <PackageReference Include="Quarto.Api.Models" Version="1.0.10" />
   </ItemGroup>
 
 </Project>
